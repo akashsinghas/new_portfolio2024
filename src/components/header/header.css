@@ -46,7 +46,15 @@
 .active-link,
 .nav_link:hover {
     color: var(--title-color-dark);
+    font-weight: 600;
 }
+
+/* Change background header */
+
+.scroll-header {
+    box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);
+}
+
 
 /* break points */
 

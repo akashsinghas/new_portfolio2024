@@ -25,8 +25,8 @@
     margin-bottom: var(--mb-0-25);
 }
 .home_hand {
-    width: 38px;
-    height: 38px;
+    width: 30px;
+    height: 30px;
     margin-left: 0.4rem;
 }
 .home_subtitle {
@@ -80,6 +80,11 @@
 
 .home_scroll {
     margin-left: 9.25rem;
+    position: relative;
+}
+.scroll-span {
+    position: absolute;
+    bottom: 5px;
 }
 
 .wheel {
@@ -106,6 +111,10 @@
 .home_scroll-arrow {
     font-size: 1.25rem;
     color: var(--title-color);
+}
+.home_scroll-mouse {
+    width: 24px;
+    height: 24px;
 }
 
 
